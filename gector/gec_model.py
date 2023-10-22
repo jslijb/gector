@@ -5,7 +5,7 @@ import sys
 from time import time
 
 import torch
-from allennlp.data.dataset import Batch
+from allennlp.data import Batch
 from allennlp.data.fields import TextField
 from allennlp.data.instance import Instance
 from allennlp.data.tokenizers import Token
